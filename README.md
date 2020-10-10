@@ -1,7 +1,10 @@
 # README
 
-Msgvan is a very small and simple messagebus with publish-subscribe semantics. It emphasizes simplicity and correctness over performance. It's only a thin layer on top of Thespian, an actor library for Python, which handles all the heavy concurrency and distribution lifting. 
+Msgvan is an embeddable messagebus library with publish-subscribe semantics for Python.
 
+It emphasizes simplicity and correctness over performance. It's only a thin layer on top of the Thespian actor library, which handles all the heavy concurrency and distribution lifting. 
+
+I've built msgvan because I need a pubsub library that's easily embedded in Python, but still crosses process and system boundaries, and plays well with Thespianpy. 
 
 ## Topics
 
