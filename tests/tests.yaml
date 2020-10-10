@@ -1,0 +1,5 @@
+gate_bundles:
+  - focal
+tests:
+  - tests.test_msgvan.MsgvanTest
+

@@ -1,0 +1,2 @@
+recursive-include example *.md
+recursive-include example *.py

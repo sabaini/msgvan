@@ -1,0 +1,8 @@
+series: focal
+applications:
+  leader:
+    charm: cs:ubuntu
+    num_units: 1
+  follower:
+    charm: cs:ubuntu
+    num_units: 1

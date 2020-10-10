@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Log files
+*.log
+
+.tox/
+.coverage
+
+# vi
+.*.swp
+
+# pycharm
+.idea/
+
+# Builds and vendor libs
+dist/
+build/
+src/msgvan.egg-info/
